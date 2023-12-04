@@ -5,7 +5,7 @@ import ExampleCarouselImage from './ExampleCarouselImage';
 
 function SliderScreen() {
   return (
-    <Carousel>
+    <Carousel className='carsol'>
     <Carousel.Item>
       <ExampleCarouselImage text="First slide" />
       <Carousel.Caption>
